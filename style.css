@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif, arial;
+}
+body {
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+p {
+    color: #333;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 62.5rem;
+    min-height: 62.5rem;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 2.188rem 3.438rem rgba(0, 0, 0, 0.1);
+    margin: 3.125rem;
+}
+
+.container .left {
+    position: relative;
+    background: #003147;
+    padding: 2.5rem;
+}
+
+.container .right {
+    position: relative;
+    background: white;
+    padding: 2.5rem;
+}
+
+.profile {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile .imgBox {
+    position: relative;
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile h1 {
+    color: white;
+    font-size: 1.5em;
+    margin-top: 1.25rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.profile h2 {
+    color: white;
+    font-size: 1em;
+    margin-top: 1.25rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1.4em;
+}
+
+.profile h3 {
+    color: white;
+    font-size: 0.8em;
+    margin-top: 1.25rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 200;
+    line-height: 1.4em;
+}
+
+.info {
+    margin-bottom: 3.125rem;
+    padding: 1rem;
+}
+
+.info h2 {
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 0.0625rem;
+    margin-bottom: 0.625rem;
+}
+.exp {
+    margin-bottom: 3.125rem;
+    padding: 1rem;
+}
+
+.exp h2 {
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 0.0625rem;
+    margin-bottom: 0.625rem;
+}
+
+.education {
+    margin-bottom: 3.125rem;
+    padding: 1rem;
+}
+
+.education h2 {
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 0.0625rem;
+    margin-bottom: 0.625rem;
+}
